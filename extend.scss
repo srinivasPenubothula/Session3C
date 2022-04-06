@@ -1,0 +1,8 @@
+  .push-button{
+        background-color:blue;
+  }
+  /*extends the push-button in main-button is means it includes the properties os button in main button*/
+  .main-button {
+       @extend .push-button;
+       font-weight:bold;
+     }

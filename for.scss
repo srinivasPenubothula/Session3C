@@ -1,0 +1,6 @@
+/*using for loop perform arthmetic operation*/
+@for $heading-level from 1 through 6 {
+  h#{$heading-level} {
+    font-size: 24px - 3 * $heading-level;
+  }
+}

@@ -1,0 +1,13 @@
+    /*create a variable named as thcikness and pass this var as input to the border-width and img-border and intialize the thickness value as 10*/
+     @mixin border($thickness) {
+
+        -webkit-border-with: $thickness;
+         
+     }
+     .border{@include border-width(10px);}
+
+     @mixin img($thickness){
+         -webkit-border:$thickness;
+     }
+     .img{@include border(10px);}
+     

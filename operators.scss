@@ -1,0 +1,8 @@
+/*  intialize variables padding,page-width.*/
+$page-width: 1400px;
+$padding: 20px;
+/*assign padding var to padding property and perform multiplication and subratcion by using page-width and padding and assign them to width*/
+.container {
+  padding: $padding;
+  width: 0.8 * $page-width - 2 * $padding;
+}
